@@ -34,7 +34,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .header {
     padding: 60px 50px;
   }
@@ -65,7 +65,7 @@ a {
   z-index: 1;
   gap: 15px;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .header__btn {
     flex-direction: column;
   }
@@ -85,7 +85,7 @@ a {
   cursor: pointer;
   background-color: rgb(8, 234, 35);
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .header__btn button {
     width: 200px;
     height: 45px;
@@ -108,7 +108,7 @@ a {
   padding: 0 150px 60px;
   position: relative;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .catalog {
     padding: 50px;
   }
@@ -123,7 +123,7 @@ a {
   right: 50%;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .catalog {
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +181,7 @@ a {
   padding: 60px 150px;
   position: relative;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .process {
     padding: 50px;
   }
@@ -205,7 +205,7 @@ a {
   font-size: 27px;
   font-weight: 200;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .process__title {
     padding: 0;
   }
@@ -215,7 +215,7 @@ a {
   padding: 60px 150px 60px;
   position: relative;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .advantage {
     padding: 10px 50px;
   }
@@ -254,7 +254,7 @@ a {
   display: flex;
   gap: 60px;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .advantage__block {
     flex-direction: column;
   }
@@ -264,7 +264,7 @@ a {
   padding: 0 150px 100px;
   position: relative;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .images {
     padding: 50px 0;
   }
@@ -288,7 +288,7 @@ a {
   font-size: 27px;
   font-weight: 200;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .images__title {
     font-size: 24px;
   }
@@ -307,7 +307,7 @@ a {
   height: 500px;
   border: 1px solid black;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .images .carousel .carousel-inner {
     height: 250px;
   }
@@ -325,7 +325,7 @@ a {
   width: 35px;
   height: 35px;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .images .carousel .nav-btn {
     width: 20px;
     height: 20px;
@@ -334,7 +334,7 @@ a {
 .images .carousel #prevBtn {
   left: 40px;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .images .carousel #prevBtn {
     left: 20px;
   }
@@ -342,7 +342,7 @@ a {
 .images .carousel #nextBtn {
   right: 40px;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .images .carousel #nextBtn {
     right: 20px;
   }
@@ -352,7 +352,7 @@ a {
   padding: 0 150px 60px;
   position: relative;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .questions {
     padding: 0;
     padding-top: 50px;
