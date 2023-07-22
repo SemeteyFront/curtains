@@ -44,6 +44,10 @@ a {
     z-index: 1;
     font-size: 50px;
     font-weight: 500;
+
+    @media (max-width: 600px) {
+      font-size: 35px;
+    }
   }
 
   &__list {
@@ -66,6 +70,10 @@ a {
       flex-direction: column;
     }
 
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
     button {
       width: 270px;
       height: 55px;
@@ -75,6 +83,12 @@ a {
       border: none;
       cursor: pointer;
       background-color: rgb(8, 234, 35);
+
+      @media (max-width: 420px) {
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+      }
     }
 
   }
@@ -96,16 +110,22 @@ a {
   padding: 0 150px 60px;
   position: relative;
 
+  @media (max-width: 420px) {
+    padding: 50px;
+  }
+
   .line {
     width: 75%;
     height: 1px;
     background-color: black;
     position: absolute;
     bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
   }
 
   @media (max-width: 420px) {
-    padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -172,7 +192,7 @@ a {
   position: relative;
 
   @media (max-width: 420px) {
-    padding: 60px 50px;
+    padding: 50px;
   }
 
   .line {
@@ -181,6 +201,9 @@ a {
     background-color: black;
     position: absolute;
     bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
   }
 
   &__title {
@@ -191,6 +214,11 @@ a {
     padding: 70px;
     font-size: 27px;
     font-weight: 200;
+
+    @media (max-width: 420px) {
+      padding: 0;
+    }
+
   }
 
   // &__block {
@@ -199,8 +227,12 @@ a {
 }
 
 .advantage {
-  padding: 0 150px 60px;
+  padding: 60px 150px 60px;
   position: relative;
+
+  @media (max-width: 420px) {
+    padding: 10px 50px;
+  }
 
   .line {
     width: 75%;
@@ -208,6 +240,9 @@ a {
     background-color: black;
     position: absolute;
     bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
   }
 
   &__title {
@@ -247,12 +282,19 @@ a {
   padding: 0 150px 100px;
   position: relative;
 
+  @media (max-width: 420px) {
+    padding: 50px 0;
+  }
+
   .line {
     width: 75%;
     height: 1px;
     background-color: black;
     position: absolute;
     bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
   }
 
   &__title {
@@ -263,6 +305,10 @@ a {
     padding: 70px;
     font-size: 27px;
     font-weight: 200;
+
+    @media (max-width: 420px) {
+      font-size: 24px;
+    }
   }
 
   .carousel {
@@ -279,6 +325,10 @@ a {
         height: 500px;
         border: 1px solid black;
       }
+
+      @media (max-width: 420px) {
+        height: 250px;
+      }
     }
     
     .nav-btn {
@@ -294,14 +344,27 @@ a {
         width: 35px;
         height: 35px;
       }
+
+      @media (max-width: 420px) {
+        width: 20px;
+        height: 20px;
+      }
     }
     
     #prevBtn {
       left: 40px;
+
+      @media (max-width: 420px) {
+        left: 20px;
+      }
     }
     
     #nextBtn {
       right: 40px;
+
+      @media (max-width: 420px) {
+        right: 20px;
+      }
     }
   }
 }
@@ -310,12 +373,9 @@ a {
   padding: 0 150px 60px;
   position: relative;
 
-  .line {
-    width: 75%;
-    height: 1px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
+  @media (max-width: 420px) {
+    padding: 0;
+    padding-top: 50px;
   }
 
   &__title {
@@ -385,6 +445,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   color: white;
+
 
   &__title {
     width: 100%;

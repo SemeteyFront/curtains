@@ -45,6 +45,11 @@ a {
   font-size: 50px;
   font-weight: 500;
 }
+@media (max-width: 600px) {
+  .header__title {
+    font-size: 35px;
+  }
+}
 .header__list {
   display: flex;
   flex-direction: column;
@@ -65,6 +70,11 @@ a {
     flex-direction: column;
   }
 }
+@media (max-width: 600px) {
+  .header__btn {
+    flex-direction: column;
+  }
+}
 .header__btn button {
   width: 270px;
   height: 55px;
@@ -74,6 +84,13 @@ a {
   border: none;
   cursor: pointer;
   background-color: rgb(8, 234, 35);
+}
+@media (max-width: 420px) {
+  .header__btn button {
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+  }
 }
 
 .header::after {
@@ -91,16 +108,23 @@ a {
   padding: 0 150px 60px;
   position: relative;
 }
+@media (max-width: 420px) {
+  .catalog {
+    padding: 50px;
+  }
+}
 .catalog .line {
   width: 75%;
   height: 1px;
   background-color: black;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
 }
 @media (max-width: 420px) {
   .catalog {
-    padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -159,7 +183,7 @@ a {
 }
 @media (max-width: 420px) {
   .process {
-    padding: 60px 50px;
+    padding: 50px;
   }
 }
 .process .line {
@@ -168,6 +192,9 @@ a {
   background-color: black;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
 }
 .process__title {
   width: 100%;
@@ -178,10 +205,20 @@ a {
   font-size: 27px;
   font-weight: 200;
 }
+@media (max-width: 420px) {
+  .process__title {
+    padding: 0;
+  }
+}
 
 .advantage {
-  padding: 0 150px 60px;
+  padding: 60px 150px 60px;
   position: relative;
+}
+@media (max-width: 420px) {
+  .advantage {
+    padding: 10px 50px;
+  }
 }
 .advantage .line {
   width: 75%;
@@ -189,6 +226,9 @@ a {
   background-color: black;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
 }
 .advantage__title {
   width: 100%;
@@ -224,12 +264,20 @@ a {
   padding: 0 150px 100px;
   position: relative;
 }
+@media (max-width: 420px) {
+  .images {
+    padding: 50px 0;
+  }
+}
 .images .line {
   width: 75%;
   height: 1px;
   background-color: black;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
 }
 .images__title {
   width: 100%;
@@ -239,6 +287,11 @@ a {
   padding: 70px;
   font-size: 27px;
   font-weight: 200;
+}
+@media (max-width: 420px) {
+  .images__title {
+    font-size: 24px;
+  }
 }
 .images .carousel {
   position: relative;
@@ -254,6 +307,11 @@ a {
   height: 500px;
   border: 1px solid black;
 }
+@media (max-width: 420px) {
+  .images .carousel .carousel-inner {
+    height: 250px;
+  }
+}
 .images .carousel .nav-btn {
   position: absolute;
   top: 50%;
@@ -267,23 +325,38 @@ a {
   width: 35px;
   height: 35px;
 }
+@media (max-width: 420px) {
+  .images .carousel .nav-btn {
+    width: 20px;
+    height: 20px;
+  }
+}
 .images .carousel #prevBtn {
   left: 40px;
 }
+@media (max-width: 420px) {
+  .images .carousel #prevBtn {
+    left: 20px;
+  }
+}
 .images .carousel #nextBtn {
   right: 40px;
+}
+@media (max-width: 420px) {
+  .images .carousel #nextBtn {
+    right: 20px;
+  }
 }
 
 .questions {
   padding: 0 150px 60px;
   position: relative;
 }
-.questions .line {
-  width: 75%;
-  height: 1px;
-  background-color: black;
-  position: absolute;
-  bottom: 0;
+@media (max-width: 420px) {
+  .questions {
+    padding: 0;
+    padding-top: 50px;
+  }
 }
 .questions__title {
   width: 100%;
