@@ -530,6 +530,10 @@ a {
   &__list {
     display: flex;
     gap: 20px;
+
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+    }
     
     li {
       a {

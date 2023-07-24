@@ -486,6 +486,11 @@ a {
   display: flex;
   gap: 20px;
 }
+@media (max-width: 600px) {
+  .footer__list {
+    flex-wrap: wrap;
+  }
+}
 .footer__list li a {
   color: white;
   font-size: 16px;
