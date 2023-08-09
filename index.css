@@ -84,7 +84,9 @@ a {
   outline: none;
   border: none;
   cursor: pointer;
-  background-color: rgb(8, 234, 35);
+  background-color: inherit;
+  border: 2px solid white;
+  color: #D8D9DA;
 }
 @media (max-width: 600px) {
   .header__btn button {
@@ -92,6 +94,10 @@ a {
     height: 45px;
     font-size: 16px;
   }
+}
+.header__btn button:hover {
+  background-color: #b59e83;
+  color: black;
 }
 
 .header::after {
@@ -171,11 +177,14 @@ a {
 .catalog__list .block__btn button {
   width: 200px;
   height: 40px;
-  background-color: aquamarine;
+  background-color: inherit;
   outline: none;
   border: none;
   border-radius: 10px;
   border: 1px solid gray;
+}
+.catalog__list .block__btn button:hover {
+  background-color: #e6bc8d;
 }
 
 .process {
