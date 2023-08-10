@@ -20,7 +20,18 @@ a {
   color: inherit;
 }
 
+.whatsapp {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px;
 
+  img {
+    width: 60px;
+    height: 60px;
+    
+  }
+}
 
 .header {
   position: relative;
@@ -32,6 +43,7 @@ a {
   background-position: center;
   padding: 120px 150px;
   color: white;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -508,7 +520,6 @@ a {
         width: 300px;
         height: 40px;
         outline: none;
-        border-radius: 10px;
         padding: 0 7px;
         font-size: 16px;
         color: rgb(0, 38, 255);
@@ -518,7 +529,6 @@ a {
         width: 200px;
         height: 30px;
         outline: none;
-        border-radius: 10px;
       }
 
       label {
@@ -529,9 +539,16 @@ a {
       button {
         width: 300px;
         height: 40px;
-        border-radius: 10px;
         border: none;
-        background-color: aqua;
+        background-color: inherit;
+        border: 2px solid white;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      button:hover {
+        background-color: #e6bc8d;
       }
     }
   }
@@ -593,3 +610,4 @@ a {
     color: white;
   }
 }
+
